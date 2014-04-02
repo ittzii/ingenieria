@@ -1,0 +1,5 @@
+<div class="contenido">
+	<h2>Consultar un proyecto...</h2> 
+	<p>lalala llene el siguiente formulario</p>
+	<p>lalala formulario para consultar un proyecto</p>
+</div>

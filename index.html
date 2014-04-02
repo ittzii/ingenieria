@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./styles/menu.css" />
+		<link rel="stylesheet" type="text/css" href="./styles/index.css" />
+		<script src="./lib/jquery-1.10.2.min.js"></script>
+		<script>
+			$(function() {
+
+				$("#proyectos").click(function() {
+					$('#contenedor').load('./contenido/proyectos.txt');
+					return false;
+				});
+
+				$("#nuevoP").click(function() {
+					$('#contenedor').load('./contenido/ProyectoNuevo.txt');
+					return false;
+				});
+
+				$("#consultarP").click(function() {
+					$('#contenedor').load('./contenido/ConsultarProyecto.txt');
+					return false;
+				});
+			});
+		</script>
+
+
+		<title>Sistema para la administración de Requerimientos</title>
+	</head>
+	<body>
+		<div id="todo">
+			<div id="header">
+				<h1> Super Titulo</h1>
+			</div>
+			<div id="menu">
+				<ul class="menuPrincipal">
+					<li id="proyectos">
+						<a href="#">Proyectos</a>
+						<ul>
+							<li id="nuevoP" >
+								<a href="#">Nuevo</a>
+							</li>
+							<li id="consultarP">
+								<a href="#">Consultar</a>
+							</li>
+							<li id="AsignA">
+								<a href="#">Asignar Analistas</a>
+							</li>
+							<li id="EditarP">
+								<a href="#">Editar</a>
+							</li>
+						</ul>
+					</li>
+					<li id="analistas">
+						<a href="#">Analistas</a>
+						<ul>
+							<li id="inscribirA">
+								<a href="#">Inscribir</a>
+							</li>
+							<li id="consultarA">
+								<a href="#">Consultar</a>
+							</li>
+							<li id="AsignR">
+								<a href="#">Asignar Requerimientos</a>
+							</li>
+							<li id="EditarA">
+								<a href="#">Editar</a>
+							</li>
+						</ul>
+					</li>
+					<li id="Requerimientos">
+						<a href="#">Requerimientos</a>
+						<ul>
+							<li id="nuevoR">
+								<a href="#">Nuevo</a>
+							</li>
+							<li id="consultarReq">
+								<a href="#">Consultar</a>
+							</li>
+							<li id="EditarR">
+								<a href="#">Editar</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="contenedor">
+				<div class="contenido">
+					lalalalalalalaalalalala
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

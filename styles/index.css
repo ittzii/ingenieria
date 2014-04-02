@@ -1,0 +1,33 @@
+body {
+	margin-top: 20px;
+	font-size: 13px;
+	background-color: #E2FAFE;
+	text-align: center;
+}
+
+#todo{
+	position: relative;
+	width: 1000px;
+	height:800px;
+	margin-left: auto;
+	margin-right:auto;
+	background: #FFFFFF;
+	
+}
+
+#header{
+	background:#80EAFE;
+	width: 1000px;
+	height:125px;
+
+}
+h1{
+	font-size: 50px;
+	text-align:right;
+	padding:40px 30px 10px 10px;
+	color:#317D8B;
+}
+.contenido{
+	border-color:#E2FAFE;
+	height:500px;
+}

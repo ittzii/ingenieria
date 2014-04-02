@@ -1,0 +1,4 @@
+<div class="contenido">
+	<h2>INFORMACIÓN RELEVANTE A LOS PROYECTOS...</h2> 
+	<p>lalalala.... lalalala .... lalala...</p>
+</div>
